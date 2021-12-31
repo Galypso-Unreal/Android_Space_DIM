@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#211E50"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_undraw_outer_space_re_u9vd"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="DIM"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="SPACE"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="TEAM"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="297dp"
+        android:layout_height="62dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Démarrer"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Créer un Astronaute"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="549dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
