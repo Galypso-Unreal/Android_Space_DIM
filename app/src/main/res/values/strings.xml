@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">DIM_Space_Team</string>
+    <string name="win_text">Vous avez gagné</string>
+    <string name="scores_button">Tableau des scores</string>
+    <string name="score_number">0</string>
+    <string name="re_try_button">Re-essayer</string>
+    <string name="score_text">Votre score :</string>
+    <string name="image_los_win">TODO</string>
+    <string name="title_text1">DIM</string>
+    <string name="title_text2">SPACE</string>
+    <string name="title_text3">TEAM</string>
+    <string name="name_user">Name</string>
+    <string name="start_button">Démarrer</string>
+    <string name="create_astro_button">Créer un Astronaute</string>
+    <string name="background_image_menu">TODO</string>
+    <string name="loose_image">Vous avez perdu ...</string>
+    <string name="retry_button">Re-essayer</string>
+    <string name="score_table_label">Tableau des scores</string>
+    <string name="score_label">Votre score :</string>
+    <string name="score_user">0</string>
+    <string name="image_loose_game">TODO</string>
+    <string name="label_start_lobby">Mettez-vous prêt, lorsque tout le monde l\'est, la partie se lancera</string>
+    <string name="ready_button">Je suis prêt</string>
+    <string name="actif_socket_label">Socket actif</string>
+    <string name="room_label">Vous êtes dans le salon :</string>
+    <string name="salon_name">UwU</string>
+    <string name="player1_name">Player1</string>
+    <string name="ready_label_player1">Ready</string>
+    <string name="background_room_image">TODO</string>
+    <string name="avatar_image">TODO</string>
+    <string name="avatar_image2">TODO</string>
+    <string name="label_enter_room">Entrer le nom d\'une salle ou en créer une...</string>
+    <string name="join_button">Rejoindre une partie</string>
+    <string name="socket_inactif">Socket inactif</string>
+    <string name="background_image_preroom">TODO</string>
+    <string name="socket_inactif_image">TODO</string>
 </resources>
